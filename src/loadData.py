@@ -6,7 +6,6 @@ trainDataPath = '../data/train_data.npy'
 testDataPath = '../data/test_data.npy'
 
 print('Loading data')
-lol
 
 reflectValues = sio.loadmat(reflectValuesPath)
 trainData = np.load(trainDataPath)
